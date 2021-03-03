@@ -1,0 +1,59 @@
+.img img{
+    height:auto;
+    width:300px;
+}
+
+.Contenedor{
+   position:relative;
+   bottom: 100px;
+  width: 100%;
+  max-width: 325px;
+  height: auto;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  margin:auto;
+  
+}
+.Contenedor .card{
+    background: whitesmoke;
+    width:330px;
+    height: 370px;
+    border-radius:10px;
+    box-shadow: 0 4px 2px rgba(0,0,0,10);
+    overflow:hidden;
+    margin: 20px;
+    text-align:center;
+  
+
+}
+
+
+.Contenedor .card img{
+    width:330px;
+    height:220px;
+}
+
+.Contenedor .card p{
+    padding:0 1rem;
+    font-size: 18px;
+    font-weight:300;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    position:relative;
+    top: 16px;
+    
+}
+@media only screen and (min-width: 768px) {
+ 
+    .Contenedor{
+        
+        
+        position:relative;
+        right:600px;
+    }
+  
+
+
+
+
+}

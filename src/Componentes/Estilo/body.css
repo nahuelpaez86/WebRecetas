@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+ }
+
+.General {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 1fr,2fr,1fr;
+    grid-gap:10px;
+    background-color:cornflowerblue;
+    
+  
+}
+.Titulo h1 {
+        align-items: center;
+        color: white;
+        height:200px;
+        text-align: center;
+}
+
+.Titulo{
+    padding: 40px;
+    position: relative;
+    top:20px;
+
+}
+.logos h5{
+    text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 15px;
+    position: relative;
+    bottom:80px;
+}
+.logos .Pami{
+    height:50px;
+    width: 150px;
+    position: relative;
+    bottom:70px;
+    left:30px;
+}
+.logos .Issn{
+    height:70px;
+    width: 70px;
+    position: relative;
+    bottom:60px;
+    left:90px;
+}

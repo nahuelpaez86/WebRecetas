@@ -1,0 +1,25 @@
+.Informacion{
+    font-family: sans-serif;
+    text-align: center;
+    
+  }
+  .div{
+    position: relative;
+    top: 200px;
+    left:200px
+  }
+  .bg {
+    position: absolute;
+    top:20px;
+    bottom: 90px;
+    right:60px;
+    left: 60px;
+    width: 40vw;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    will-change: opacity;
+    
+  
+  }
+  
