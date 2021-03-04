@@ -1,0 +1,48 @@
+.imagen img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.tarjeta {
+  background: whitesmoke;
+  width: 330px;
+  height: 370px;
+  border-radius: 10px;
+  box-shadow: 0 4px 2px rgba(0, 0, 0, 10);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+}
+.imagen {
+  position: relative;
+  top: 30px;
+}
+.contenedor-main {
+  bottom: 100px;
+  width: 100%;
+  max-width: 325px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+.informacion {
+  position: relative;
+  top: 20px;
+}
+.informacion h2 {
+  position: relative;
+  right: 15px;
+  top: 20px;
+}
+.informacion h4 {
+  position: relative;
+  left: 20px;
+  top: 30px;
+}
+.informacion p {
+  justify-content: center;
+  position: relative;
+  top: 50px;
+}
