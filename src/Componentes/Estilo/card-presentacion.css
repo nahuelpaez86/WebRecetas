@@ -1,48 +1,48 @@
-.imagen img{
-    height:150px;
-    width: 150px;
-    border-radius: 50%;
-    
-
+.imagen img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
 }
-.tarjeta{
-    position: relative;
-    left:50px;
-    
+.tarjeta {
+  background: whitesmoke;
+  width: 330px;
+  height: 370px;
+  border-radius: 10px;
+  box-shadow: 0 4px 2px rgba(0, 0, 0, 10);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
 }
-.imagen{
-    position:relative;
-    top:30px;
+.imagen {
+  position: relative;
+  top: 30px;
 }
-.contenedorMain{
-    height:400px;
-    max-width: 250px;
-    position:relative;
-    left: 29px;
-    bottom:110px;
-    background: whitesmoke;
-    margin:30px;
-    border-radius: 20px;
-    box-shadow: 0 4px 3px rgba(0,0,0,12);
-
+.contenedor-main {
+  bottom: 100px;
+  width: 100%;
+  max-width: 325px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
 }
-.informacion{
-    position: relative;
-    top: 20px;
+.informacion {
+  position: relative;
+  top: 20px;
 }
-.informacion h2{
-    position: relative;
-    right:15px;
-    top:20px;
+.informacion h2 {
+  position: relative;
+  right: 15px;
+  top: 20px;
 }
-.informacion h4{
-    position: relative;
-    left:20px;
-    top:30px;
+.informacion h4 {
+  position: relative;
+  left: 20px;
+  top: 30px;
 }
-.informacion p{
-    justify-content: center;
-    position: relative;
-    top:50px;
+.informacion p {
+  justify-content: center;
+  position: relative;
+  top: 50px;
 }
-

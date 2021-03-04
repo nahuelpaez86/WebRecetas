@@ -1,25 +1,20 @@
-import MenuAppBar from './Componentes/Header';
-import Footer from './Componentes/Footer';
-import Body from './Componentes/body.js';
-import './Componentes/Estilo/Style-general.css';
+import MenuAppBar from "./Componentes/Header/Index";
+import Footer from "./Componentes/Footer/Index";
+import Body from "./Componentes/Body/Index.js";
+import "./Componentes/Estilo/Style-general.css";
 
-const App = ()=> {
- 
+// agregado por gabi
+import CssBaseline from "@material-ui/core/CssBaseline";
 
-  return ( 
+const App = () => {
+  return (
     <>
-      <div className="Main"> 
-        
-        <MenuAppBar/>
-         <Body/>
-        <Footer/>
-      
-      </div>
+      <CssBaseline />
+      <MenuAppBar />
+      <Body />
+      <Footer />
     </>
   );
-
-
-
-}
+};
 
 export default App;
