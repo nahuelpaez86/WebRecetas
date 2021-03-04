@@ -1,5 +1,5 @@
 import React from "react";
-import "../Estilo/card-presentacion.css";
+import "../CardPresentacion/card-presentacion.css";
 
 const CardPresentacion = () => {
   const Icono = "./assets/image/avatar-medico.png";

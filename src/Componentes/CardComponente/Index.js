@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../Estilo/Estilo-card.css";
+import "../CardComponente/Estilo-card.css";
 const Card = () => {
   const imagen = "assets/image/Img-mobile.jpg";
   return (
