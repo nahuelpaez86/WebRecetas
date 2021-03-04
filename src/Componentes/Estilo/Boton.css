@@ -13,3 +13,9 @@
     bottom:100px;
     left:60px;
 }
+@media only screen and (min-width: 600px) {
+    .Boton{
+        width:600px;
+        height:70px;
+    }
+}

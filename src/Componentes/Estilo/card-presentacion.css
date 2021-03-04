@@ -16,7 +16,7 @@
 }
 .contenedorMain{
     height:400px;
-    max-width: 250px;
+    width: 250px;
     position:relative;
     left: 29px;
     bottom:110px;
@@ -46,3 +46,16 @@
     top:50px;
 }
 
+@media only screen and (min-width: 600px) {
+    .contenedorMain{
+        left:1270px;
+        bottom:530px;
+        width:300px;
+        height:374px;
+    }
+    
+    .contenedorMain .tarjeta{
+        left:75px;
+    }
+
+}
