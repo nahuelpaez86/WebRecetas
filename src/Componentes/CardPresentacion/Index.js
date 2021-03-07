@@ -10,14 +10,10 @@ const CardPresentacion = () => {
           <img src={Icono} />
         </div>
         <div className="informacion">
-          <h2>Juan Carlos Paez</h2>
+          <h2> Dr Juan Carlos Paez</h2>
           <h4>Clinico Medico</h4>
           <p>
-            loremsdkmadlkamsdad
-            <br />
-            jdajkndasjndakjda
-            <br />
-            maksmdsakdmas
+            MN :3563
           </p>
         </div>
       </div>

@@ -73,8 +73,13 @@ export default function MenuAppBar() {
               borderRadius={16}
               p={10}
             >
+              <a href='/'>
               <MenuItem onClick={handleClose}>Inicio</MenuItem>
+              </a>
+              <a href='/requerimientos'>
               <MenuItem onClick={handleClose}>Recetas</MenuItem>
+              </a>
+            
             </Menu>
           </div>
         </Toolbar>

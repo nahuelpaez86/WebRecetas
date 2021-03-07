@@ -1,6 +1,6 @@
 .imagen img {
-  height: 150px;
-  width: 150px;
+  height: 160px;
+  width: 160px;
   border-radius: 50%;
 }
 .tarjeta {
@@ -33,16 +33,19 @@
 }
 .informacion h2 {
   position: relative;
-  right: 15px;
-  top: 20px;
+  right: 1px;
+  top: 40px;
 }
 .informacion h4 {
   position: relative;
-  left: 20px;
-  top: 30px;
+  right: 2px;
+  top: 58px;
+  font-size: 18px;
 }
 .informacion p {
   justify-content: center;
   position: relative;
-  top: 50px;
+  top: 80px;
+  right:2px;
+  font-size: 22px;
 }

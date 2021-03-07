@@ -36,11 +36,6 @@
   font-weight: 300;
   font-family: "Fira Sans Condensed", sans-serif;
   position: relative;
-  top: 16px;
+  top: 1px;
 }
-@media only screen and (min-width: 768px) {
-  .Contenedor {
-    /* position: relative;
-    right: 600px; */
-  }
-}
+
