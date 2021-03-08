@@ -16,8 +16,8 @@ const useStyles = makeStyles((theme) => ({
 
 const Body = () => {
   const classes = useStyles();
-  const Pami = "assets/image/Logo-pami.png";
-  const Issn = "assets/image/Logo.issn.png";
+  const Pami = "%PUBLIC_URL%/Logo-pami.png";
+  const Issn = "%PUBLIC_URL%/Logo.issn.png";
   return (
     <div className="General">
       <div className={classes.toolbar} />

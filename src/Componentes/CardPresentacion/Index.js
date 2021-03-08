@@ -2,7 +2,7 @@ import React from "react";
 import "../CardPresentacion/card-presentacion.css";
 
 const CardPresentacion = () => {
-  const Icono = "./assets/image/avatar-medico.png";
+  const Icono = "%PUBLIC_URL%/avatar-medico.png";
   return (
     <div className="contenedor-main">
       <div className="tarjeta">
