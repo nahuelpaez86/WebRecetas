@@ -4,7 +4,8 @@ import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
-
+import wpp from '../../image/whatsapp.png';
+import mail from '../../image/email.svg'
 
 const useStyles = makeStyles((theme) => ({
   toolbar: theme.mixins.toolbar,
@@ -60,8 +61,8 @@ const useStyles = makeStyles((theme) => ({
 
 const Requerimientos= () => {
   const classes = useStyles();
-  const wpp='/assets/image/whatsapp.png';
-  const mail='/assets/image/email.svg';
+ // const wpp='./image/whatsapp.png';
+  //const mail='./image/email.svg';
   
   return (
     <div className="General">

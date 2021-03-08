@@ -1,8 +1,8 @@
 import React from "react";
-
+import imagen from '../../image/Img-mobile.jpg';
 import "../CardComponente/Estilo-card.css";
 const Card = () => {
-  const imagen = "./assets/image/Img-mobile.jpg";
+  //const imagen = "./image/Img-mobile.jpg";
   return (
     <div className="Contenedor">
       <div className="card">

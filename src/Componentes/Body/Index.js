@@ -2,7 +2,8 @@ import React from "react";
 import Card from "../CardComponente/Index";
 import Boton from "../Boton/Index";
 import CardPresentacion from "../CardPresentacion/Index";
-
+import Pami from '../../image/Logo-pami.png';
+import Issn from '../../image/Logo.issn.png';
 import "./body.css";
 
 // agregado por gabi
@@ -17,8 +18,8 @@ const useStyles = makeStyles((theme) => ({
 
 const Body = () => {
   const classes = useStyles();
-  const Pami ="./assets/image/Logo-pami.png";
-  const Issn ="./assets/image/Logo.issn.png";
+ // const Pami ="../image/Logo-pami.png";
+  //const Issn ="./image/Logo.issn.png";
   return (
     <div className="General">
       <div className={classes.toolbar} />
