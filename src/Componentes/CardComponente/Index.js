@@ -2,7 +2,7 @@ import React from "react";
 
 import "../CardComponente/Estilo-card.css";
 const Card = () => {
-  const imagen = "%PUBLIC_URL%/assets/image/Img-mobile.jpg";
+  const imagen = "./assets/image/Img-mobile.jpg";
   return (
     <div className="Contenedor">
       <div className="card">
