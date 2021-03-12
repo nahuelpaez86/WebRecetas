@@ -6,6 +6,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import wpp from '../../image/whatsapp.png';
 import mail from '../../image/email.svg'
+import { red } from '@material-ui/core/colors';
 
 const useStyles = makeStyles((theme) => ({
   toolbar: theme.mixins.toolbar,
@@ -57,6 +58,13 @@ const useStyles = makeStyles((theme) => ({
     top:'60px',
     fontSize:'19px',
   },
+  atencion:{
+    position:'relative',
+    top:'110px',
+    fontSize:'22px',
+    color: '#EA0C0C',
+    
+  }
 }));
 
 const Requerimientos= () => {
@@ -115,14 +123,19 @@ const Requerimientos= () => {
                           <h5>Enviar los datos por cualquiera de las dos vias de comunicacion:</h5>
                         </Grid>
                         <Grid item xs={12} >
-                          <img src={wpp} className={classes.imgWpp}/>
-                          <p> <b>2942-232323</b></p>
+                        {/*<img src={wpp} className={classes.imgWpp}/>
+                          <p> <b>2942-232323</b></p> */}
 
                           <img src={mail} className={classes.imgMail}/>
                           <p><b>recetaonline2021@yahoo.com</b></p>
                         </Grid>
                         <Grid item xs={12} className={classes.textoFinal}>
                           <h5>La receta será enviada a su Correo Electronico dentro de las 24hs.<br/> Muchas gracias por utilizar nuestro servicio</h5>
+                        </Grid>
+                        <Grid item xs={12} className={classes.atencion}>
+                          <h5>ATENCION: Bajo ninguna circunstancia se realizarán certificados medicos por este medio. <br/> 
+                              Sin expeción.
+                           </h5>
                         </Grid>
                     
                     </Grid>
