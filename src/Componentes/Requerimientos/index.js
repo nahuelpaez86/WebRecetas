@@ -123,8 +123,8 @@ const Requerimientos= () => {
                           <h5>Enviar los datos por cualquiera de las dos vias de comunicacion:</h5>
                         </Grid>
                         <Grid item xs={12} >
-                        {/*<img src={wpp} className={classes.imgWpp}/>
-                          <p> <b>2942-232323</b></p> */}
+                        <img src={wpp} className={classes.imgWpp}/>
+                          <p> <b>2942 63-7970</b></p> 
 
                           <img src={mail} className={classes.imgMail}/>
                           <p><b>recetaonline2021@yahoo.com</b></p>
