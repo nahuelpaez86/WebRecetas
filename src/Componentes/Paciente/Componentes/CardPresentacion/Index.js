@@ -1,5 +1,5 @@
 import React from "react";
-import "../CardPresentacion/card-presentacion.css";
+import "./card-presentacion.css";
 import imagen from '../../image/avatar-medico.png';
 const CardPresentacion = () => {
   //const imagen= "./image/avatar-medico.png";

@@ -1,32 +1,33 @@
 
 
 // Components
-import MenuAppBar from "./Componentes/Header/Index";
-import Footer from "./Componentes/Footer/Index";
-import Body from "./Componentes/Body/Index.js";
-import Requerimientos from "./Componentes/Requerimientos/index"
+import NavBar from "./Componentes/Paciente/Componentes/Header/Index";
+import Footer from "./Componentes/Paciente/Componentes/Footer/Index";
+import Inicio from "./Componentes/Paciente/pages/Inicio/Index.js";
+import Formulario from "./Componentes/Paciente/pages/Formulario/indexForm";
+import Cards from "./Componentes/Medico/Componentes/medico";
 //Css
 import "./index.css";
 // rutas
-import {Switch,Route,Link} from "wouter";
+import {Switch,Route} from "wouter";
 
 // agregado por gabi
 import CssBaseline from "@material-ui/core/CssBaseline";
 
 const App = () => {
   return (
-    <>
+    <div className="mainApp">
+     
       <CssBaseline />
-      <MenuAppBar />
+      <NavBar />
       <Switch>
-            <Route exact path="/requerimientos" component={Requerimientos} />
-            <Route path="/" component={Body} />
+            <Route sensitive path="/medicos" component={Cards} />
+            <Route path="/requerimientos" component={Formulario} />
+            <Route exact path="/" component={Inicio} />
           </Switch>
-      <Footer />
-        
-
-      
-    </>
+          
+       <Footer />
+    </div>
   ); 
 };
 
