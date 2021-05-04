@@ -255,7 +255,7 @@ const Formulario= () => {
                  
 
         {/* obra social */}
-                    <div className={classes.separador}>  </div>
+          {/*  <div className={classes.separador}>  </div>*/}
                       <Grid item align="center" sm={12} >
                                   <FormControl component="fieldset">
                                           <FormLabel component="legend" >Obra Social</FormLabel>
@@ -292,7 +292,7 @@ const Formulario= () => {
                       
               
         {/* Datos de recetas */}
-                     <div className={classes.separador}> <h4> Datos receta </h4> </div>
+                   {/*  <div className={classes.separador}> <h4> Datos receta </h4> </div>*/}
                           <Grid  container className={classes.gruposDeInputs} > 
                               <DatosRecetas 
                                     holder1="Diagnostico"
@@ -308,7 +308,7 @@ const Formulario= () => {
                               
                                 {/* Datos Recetas adicionales */}    
                                     <div style={mostrar2}> 
-                                    <div className={classes.separador2}> <h4 className={classes.h4}> Medicamento 2 </h4> </div>
+                                 {/*    <div className={classes.separador2}> <h4 className={classes.h4}> Medicamento 2 </h4> </div>*/}   
                                             <DatosRecetas 
                                                     holder1="Diagnostico 2"
                                                     name1="diagnostico2"
@@ -322,7 +322,7 @@ const Formulario= () => {
                                                     onChange={onChangeHandler} />
                                     </div>
                                     <div style={mostrar3}> 
-                                    <div className={classes.separador2}> <h4 className={classes.h4}> Medicamento 3 </h4> </div>
+                                 {/*    <div className={classes.separador2}> <h4 className={classes.h4}> Medicamento 3 </h4> </div>*/} 
                                               <DatosRecetas 
                                                     holder1="Diagnostico 3"
                                                     name1="diagnostico3"
@@ -336,7 +336,7 @@ const Formulario= () => {
                                                     onChange={onChangeHandler} />
                                     </div>
                                     <div style={mostrar4}> 
-                                    <div className={classes.separador2}> <h4 className={classes.h4}> Medicamento 4 </h4> </div>
+                                      {/*  <div className={classes.separador2}> <h4 className={classes.h4}> Medicamento 4 </h4> </div>*/} 
                                     
                                             <DatosRecetas 
                                                   holder1="Diagnostico 4"
