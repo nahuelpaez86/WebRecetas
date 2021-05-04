@@ -56,7 +56,7 @@ import { makeStyles} from '@material-ui/core/styles';
      height:'5px',
      width:'200px',
      position:'relative',
-     bottom:'20px',
+     //bottom:'20px',
    },
    separador2:{
     
