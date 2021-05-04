@@ -204,7 +204,7 @@ const Formulario= () => {
                     <Grid  container direction="column"  justify="center" alignItems="center" spacing={2}>  
 
          {/*datos personales */}
-                 <div className={classes.separador}> <h4>Datos personales </h4> </div>
+                {/* <div className={classes.separador}> <h4>Datos personales </h4> </div> */}
                      <Grid  container className={classes.gruposDeInputs} spacing={2} > 
                           <Grid item xs={6} sm={6} xl={6}>
                               <ComponenteInput 
