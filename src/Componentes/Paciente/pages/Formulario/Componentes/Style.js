@@ -18,6 +18,9 @@ import { makeStyles} from '@material-ui/core/styles';
     paddingBottom:' 2em',
     height:'vh',
   },
+  containerInputs: {
+    margin: '9px',
+  },
   datos: {
    // background:'red',
     marginTop:'50px',
