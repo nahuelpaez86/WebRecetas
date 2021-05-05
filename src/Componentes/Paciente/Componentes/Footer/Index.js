@@ -7,6 +7,7 @@ const useStyles = makeStyles((theme) => ({
     background: '#3153AB',
     /* height:70px; */
     padding: '1em',
+    
   },
    p :{
     textAlign: 'center',
