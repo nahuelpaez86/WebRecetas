@@ -16,7 +16,8 @@ import { makeStyles} from '@material-ui/core/styles';
     maxHeight:'auto',
     backgroundColor:'#8AAFE5',
     paddingBottom:' 2em',
-    //height:'vh',
+    flex: 4 , 
+   //height:'vh',
   },
   datos: {
    // background:'red',
