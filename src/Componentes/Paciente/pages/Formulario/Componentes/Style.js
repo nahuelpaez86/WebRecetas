@@ -82,7 +82,7 @@ import { makeStyles} from '@material-ui/core/styles';
    gruposDeInputs: {
      maxWidth:'500px',
      position:'relative',
-     right:'20px',
+   
     },
     
    btnMedicacion:{
