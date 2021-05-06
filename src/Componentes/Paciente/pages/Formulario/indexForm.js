@@ -201,7 +201,7 @@ const Formulario= () => {
                 <h2>Datos necesarios para realizar la receta:</h2>
              <Grid item xs={12} sm={12} className={classes.datos} > 
                 <form className={classes.root} noValidate  >
-                    <Grid  container  className={classes.containerInputs} justify="center" alignItems="center" spacing={1}>  
+                    <Grid  container  className={classes.containerInputs} justify="center" alignItems="center" spacing={2}>  
 
          {/*datos personales */}
                 {/* <div className={classes.separador}> <h4>Datos personales </h4> </div> */}
